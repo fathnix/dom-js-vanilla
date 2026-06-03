@@ -2,6 +2,11 @@ let title = document.createElement('h1');
 title.innerText = 'Belajar DOM';
 title.classList.add('text-center', 'mt-5');
 
+let description = document.createElement('p');
+description.innerText = 'Fateh ganteng banget jieerr';
+description.classList.add('text-center', 'mb-5');
+document.body.appendChild(description);
+
 let container = document.createElement('div');
 container.classList.add('container', 'mt-5');
 
